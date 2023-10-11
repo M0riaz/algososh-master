@@ -19,6 +19,7 @@ export const StringComponent: React.FC = () => {
     const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         e.preventDefault();
         setInputValue(e.target.value);
+
     };
 
     const handleClick = (e: FormEvent<HTMLFormElement>) => {
